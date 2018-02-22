@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.walinns.walinnsapi.WalinnsAPI;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         WalinnsAPI.getInstance().initialize(MainActivity.this,"PROJECT_TOKEN");
+
 
     }
 }
