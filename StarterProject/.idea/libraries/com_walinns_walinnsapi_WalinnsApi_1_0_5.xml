@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.walinns.walinnsapi:WalinnsApi-1.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WalinnsApi-1.0.5.aar/420bcab013f2abcd507dcce4784d0df4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WalinnsApi-1.0.5.aar/420bcab013f2abcd507dcce4784d0df4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.walinns.walinnsapi/WalinnsApi/1.0.5/c55afccfb4b27a93eb6563d3dcf7ee28475ff23f/WalinnsApi-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
