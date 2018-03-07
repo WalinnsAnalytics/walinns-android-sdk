@@ -20,7 +20,7 @@ For more information check out our [website](https://walinns.com "Walinns") and 
 
 1. Sign Up
 
-    [Sign up](https://walinnsanalytics.com/sign-up) for a free account.  
+    [Sign up](https://walinns.com/signup) for a free account.  
     
 2.  Install the SDK
 ### Android Studio / Gradle     
