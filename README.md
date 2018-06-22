@@ -14,13 +14,13 @@ Real-time Mobile Analytics Platform. Walinns helps the app marketers to analyze 
 5. Push Notifications
 
 
-For more information check out our [website](https://walinns.com "Walinns") and [documentation](http://walinns.com/docs.html "Walinns Technical Documentation").
+For more information check out our [website](https://walinns.com "Walinns") and [documentation](https://walinns.com/docs/ "Walinns Technical Documentation").
 
 ## Getting Started
 
 1. Sign Up
 
-    [Sign up](https://walinns.com/signup) for a free account.  
+    [Sign up](https://app.walinns.com/signup) for a free account.  
     
 2.  Install the SDK
 ### Android Studio / Gradle     
@@ -28,7 +28,7 @@ For more information check out our [website](https://walinns.com "Walinns") and 
     We publish the sdk to jcenter and mavenCentral as an `aar` file. Just declare it as dependency in your `build.gradle` file.     
         
         dependencies {      
-            compile 'com.walinns.walinnsapi:WalinnsApi:1.0.5'     
+            compile 'com.walinns.walinnsapi:walinnsapi:1.0.1'     
         }       
 
     ### Manual Install
@@ -44,6 +44,12 @@ For more information check out our [website](https://walinns.com "Walinns") and 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     add the following inside the `<application>
     
