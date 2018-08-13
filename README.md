@@ -28,7 +28,9 @@ For more information check out our [website](https://walinns.com "Walinns") and 
     We publish the sdk to jcenter and mavenCentral as an `aar` file. Just declare it as dependency in your `build.gradle` file.     
         
         dependencies {      
-             compile 'com.walinns.walinnsapi:walinnsapi:1.0.1'
+              implementation 'com.google.android.gms:play-services-gcm:11.0.1'
+              implementation 'com.google.android.gms:play-services:11.0.1'
+              implementation 'com.walinns.walinnsAndroid:walinnsapi:1.0.7'
         }       
 
     ### Manual Install
