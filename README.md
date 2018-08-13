@@ -41,17 +41,12 @@ For more information check out our [website](https://walinns.com "Walinns") and 
  
  Paste the below code snippet outside the <application></application> tags. 
  
- <uses-permission android:name="android.permission.INTERNET"/>
- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- <uses-permission android:name="android.permission.BLUETOOTH" />
- <uses-permission android:name="android.permission.GET_ACCOUNTS" />
- <uses-permission android:name="android.permission.GET_TASKS"/>
- <uses-permission android:name="android.permission.READ_PROFILE"/>
- <uses-permission android:name="android.permission.READ_CONTACTS"/>
- <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+         <uses-permission android:name="android.permission.INTERNET"/>
+         <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+         <uses-permission android:name="android.permission.BLUETOOTH" />
+         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+         <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+         <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     add the following inside the `<application>
     
